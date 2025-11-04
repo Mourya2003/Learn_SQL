@@ -11,45 +11,31 @@ This repository is divided into **3 progressive phases**, each building upon the
 ### **Phase 1: Foundation & Core Concepts** 🌱
 *Building blocks of SQL - Master the basics*
 
-- **01_data_types.sql** - Understanding SQL data types (INT, VARCHAR, DATE, etc.)
-- **02_constraints.sql** - Primary Key, Foreign Key, UNIQUE, NOT NULL, CHECK, DEFAULT
-- **03_sql_cmds_types.sql** - DDL, DML, DCL, TCL command categories
-- **04_basic_queries.sql** - SELECT, DISTINCT, WHERE, ORDER BY, LIMIT/TOP
-- **05_practise_basic_queries.sql** - Practice: Top N queries, filtering multiple conditions
-- **06_Aggregations_&_Grouping.sql** - COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING
-- **07_practise_aggreagtions_and_grouping.sql** - Practice: Department stats, customer counts
+- Data Types (INT, VARCHAR, DATE, etc.)
+- Constraints (Primary Key, Foreign Key, UNIQUE, NOT NULL, CHECK, DEFAULT)
+- SQL Command Types (DDL, DML, DCL, TCL)
+- Basic Queries (SELECT, DISTINCT, WHERE, ORDER BY, LIMIT/TOP)
+- Aggregations & Grouping (COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING)
 
 ---
 
 ### **Phase 2: Intermediate Queries & Joins** 🔗
 *Combining data and writing real-world queries*
 
-- **Joins** (INNER, LEFT, RIGHT, FULL, SELF JOIN)
-  - Practice: Employee-Manager relationships, Customers with/without orders
-- **Subqueries** (Single-row, Multi-row, Correlated)
-  - Practice: Above average salaries, unprocessed orders
-- **Set Operations** (UNION, INTERSECT, EXCEPT)
-  - Practice: Data comparison queries
-- **Advanced SELECT** (CASE WHEN, COALESCE, NULLIF, EXISTS)
-  - Practice: Conditional categorization
+- Joins (INNER, LEFT, RIGHT, FULL, SELF JOIN)
+- Subqueries (Single-row, Multi-row, Correlated)
+- Set Operations (UNION, INTERSECT, EXCEPT)
+- Advanced SELECT (CASE WHEN, COALESCE, NULLIF, EXISTS)
 
 ---
 
 ### **Phase 3: Advanced SQL & Interview Patterns** 🎯
 *Master the concepts asked in 90% of SQL interviews*
 
-- **Window Functions** (ROW_NUMBER, RANK, DENSE_RANK, PARTITION BY)
-  - Running totals, moving averages
-  - Practice: Nth highest salary per department
-- **Complex Patterns**
-  - Top-N per group
-  - Gaps & Islands (finding continuous/missing sequences)
-  - Duplicate detection & removal
-- **Schema-based Real-world Queries**
-  - Orders-Customers-Products multi-table scenarios
-  - Revenue analysis, inactive users, product analytics
-- **Query Optimization**
-  - EXPLAIN plans, Indexes, Best practices
+- Window Functions (ROW_NUMBER, RANK, DENSE_RANK, PARTITION BY)
+- Complex Patterns (Top-N per group, Gaps & Islands, Duplicate detection)
+- Schema-based Real-world Queries (Orders-Customers-Products)
+- Query Optimization (EXPLAIN plans, Indexes, Best practices)
 
 ---
 
